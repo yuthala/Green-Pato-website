@@ -1,5 +1,5 @@
 //for assort
-import zubok from './images/garlic/garlic-zubok.webp';
+import zubok from './images/garlic/garlic-zubok.JPG';
 import odn from './images/garlic/garlic-odn.webp';
 import bulb from './images/garlic/garlic-bulb.webp';
 

@@ -3,7 +3,7 @@ import React from 'react';
 export function GarlicType ({id, src, alt, label, priceA, priceB, sizeA, sizeB, measurement}) {
 	return (
 		<>
-		 <li className="garlic__type-item" itemScope itemProp="itemListElement" itemType="http://schema.org/Product">
+		<li className="garlic__type-item" itemScope itemProp="itemListElement" itemType="http://schema.org/Product">
 			<div className="garlic__type-img">
 				<img src={src} alt={alt} id={id} itemProp="image"/>
 				<h5 itemProp="name">{label}</h5>
@@ -17,10 +17,10 @@ export function GarlicType ({id, src, alt, label, priceA, priceB, sizeA, sizeB, 
 				</div>
 				<div className="garlic-cat-size">
 					<p className="garlic-cat">Категория Б: &nbsp;&nbsp;{priceB}</p>
-					<p  className="garlic-size" itemProp="price">{sizeB}</p>
+					<p className="garlic-size" itemProp="price">{sizeB}</p>
 				</div>
 			</div>
-		  </li>
+		</li>
 		</>
 	)
 }

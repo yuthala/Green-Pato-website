@@ -72,9 +72,6 @@
 }
 
 /*DISCLAIMER*/
-.disclaimer {
-    margin-bottom: 3vh;
-}
 .disclaimer p {
     color: var(--primary);
     text-align: center;

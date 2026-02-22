@@ -13,6 +13,7 @@ import karmen from './images/onion/karmen.webp';
 import redbaron from './images/onion/redbaron.webp';
 import stardust from './images/onion/stardust.webp';
 import shtut from './images/onion/shtut-risen.webp';
+import penguin from './images/onion/penguin.jpg';
 
 //сорта лук репчатый
 
@@ -111,6 +112,16 @@ export const sorts = [
 		label: 'популярный',
 		item: 'Штутгартер Ризен',
 		text: 'Самый популярный и распространенный сорт в нашей стране, благодаря чему цена севка этого сорта доступна, при этом качество луковицы превосходное. Луковицы золотисто-желтого цвета, сочные чешуи белые. Вкусное длинное перо.',
+		priceA: 'временно нет в продаже',
+		priceB: 'временно нет в продаже'
+	},
+	{
+		id: 9,
+		src: penguin,
+		alt: 'пингвин',
+		label: 'мягкий вкус',
+		item: 'Пингвин',
+		text: 'Относительно новый сорт на российском рынке. Отличается нежным, полуострым вкусом. Луковицы золотисто-желтого цвета, сочные чешуи белые, луковицы изящные, удлиненной формы',
 		priceA: 'временно нет в продаже',
 		priceB: 'временно нет в продаже'
 	},
