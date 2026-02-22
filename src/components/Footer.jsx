@@ -75,7 +75,6 @@ function Footer() {
             <HashLink className="policy-link" to="/policy" rel="noopener noreferrer license" onClick={useLayoutEffect}>Политика конфиденциальности</HashLink>
 
             <div className="divider-hor"></div>
-            <p>Юридическая информация: ИП Полоусов И. В. ОГРНИП 323710000050917</p>
         </section>
 
 
@@ -91,8 +90,10 @@ function Footer() {
             </div>
             
             <div className="copyright">
-                <small className="website-rights" itemProp="copyrightHolder">Green Pato © 2023-2025</small>
-                <small className="website-rights">Webmaster: rocotbrent</small>
+                <small className="website-rights" itemProp="copyrightHolder">
+									Green Pato © {`2023-${new Date().getFullYear()}`}
+								</small>
+                {/* <small className="website-rights">Webmaster: Yuthala@Github</small> */}
             </div>
         </section>
     </footer>

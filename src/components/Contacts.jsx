@@ -27,7 +27,7 @@ function Contacts() {
 					<div className="contacts-mailto" itemScope itemType="https://schema.org/Organization">
 						<h4>Электронная почта</h4>
 							<Mailto className="mailto__wrapper" to="sales@greenpato.ru">
-									<label for="email-img" role="link" itemProp="email">sales@greenpato.ru</label>
+									<label htmlFor="email-img" role="link" itemProp="email">sales@greenpato.ru</label>
 										<img className="contacts__img" id="email-img" src={email} alt="email"/>
 							</Mailto>
 					</div>

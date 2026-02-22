@@ -241,13 +241,10 @@ ol, ul {
 } 
 .garlic-assort, .onion-assort {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   gap: 2vw;
   margin: 5vh 0;
-}
-.garlic-assort {
-  justify-content: space-between;
 }
 .garlic__type-item, .onion__type-item{
   display: flex;

@@ -18,7 +18,7 @@ function Adv() {
 	return (
 		<section className="adv-wrapper">
 			<h3>Бронируйте посевной материал лука и чеснока по выгодным ценам</h3>
-			<p className="banner"><span className="bigger-text">Открыт предзаказ на 2025 год</span></p>
+			<p className="banner"><span className="bigger-text">Открыт предзаказ на осень 2026</span></p>
 			<Link to="/order">
 				<Button 
 					buttonStyle="btn--outline"
