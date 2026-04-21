@@ -35,7 +35,7 @@ function Contacts() {
 			</section>
 
 			{/* Contact Form */}
-			<ContactForm />
+			{/* <ContactForm /> */}
 		</>
 
 	)
